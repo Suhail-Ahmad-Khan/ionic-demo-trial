@@ -1,4 +1,4 @@
 #!/bin/bash
-ssh ubuntu@ec2-52-23-175-187.compute-1.amazonaws.com '
+ssh -i /var/lib/jenkins/.ssh/id_rsa.pub ubuntu@ec2-52-23-175-187.compute-1.amazonaws.com '
 git clone https://github.com/khansuhl/ionic-demo-trial.git
 '
